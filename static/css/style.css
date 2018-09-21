@@ -1,0 +1,226 @@
+
+/* ========================================
+ALL
+======================================== */
+
+body {
+  background-color: #1e2b37;
+  overflow-x: hidden;
+}
+
+h1 {
+  font-family: 'Overpass', sans-serif;
+  font-size: 2.2rem;
+  color: #ffffff;
+  letter-spacing: 2px;
+}
+
+h3 {
+  font-family: 'Overpass', sans-serif;
+  font-size: 1.5rem;
+  line-height: 2.2rem;
+  font-weight: 100;
+  color: #D3D3D3;
+  letter-spacing: 0.4px;
+}
+
+h5 {
+  font-family: 'Overpass', sans-serif;
+  font-size: 1.3rem;
+  color: #ffffff;
+  font-weight: 600;
+  line-height: 1.3rem;
+  letter-spacing: 0.4px;
+}
+
+p {
+  font-family: 'Overpass', sans-serif;
+  font-size: 0.9rem;
+  color: #92979B;
+  font-weight: 100;
+  line-height: 1.3rem;
+  letter-spacing: 0.9px;
+}
+
+.emphasis h3 {
+  font-family: 'Overpass', sans-serif;
+  font-size: 1.5rem;
+  line-height: 2.2rem;
+  font-weight: 300;
+  color: #C39F64;
+  letter-spacing: 0.4px;
+}
+
+a {
+  color: #C39F64;
+}
+
+/* ========================================
+SPLASH SECTION
+======================================== */
+
+.splash-section h1 {
+  padding-bottom: 2.5rem;
+}
+
+.splash-section h3 {
+  padding-bottom: 2.5rem;
+}
+
+
+/* ========================================
+PORTFOLIO SECTION
+======================================== */
+
+.portfolio-section {
+  margin: 10% 0% 0% 0%;
+  background-color: #1e2b37;
+  overflow-x: hidden;
+}
+
+.portfolio-section h5 {
+  padding-bottom: 2.5rem;
+}
+
+.portfolio-section h3 {
+  padding-bottom: 2.5rem;
+}
+
+.btn:active, .btn:focus, .btn .active, .btn:visited, .email-button a:visited, .email-button a:focus {
+  background-color: #92723d;
+  outline: #92723d;
+  border: 0px;
+  color: #ffffff !important;
+}
+
+.portfolio-section a:hover, .portfolio-section a:focus {
+  color: #b38945;
+  text-decoration: none;
+  border: 0px;
+}
+
+
+
+@media only screen and (max-width: 768px) {
+  /* MOBILE STYLING */
+
+  .splash-section {
+    margin: 10%;
+    padding-top: 30%;
+    padding-bottom: 40%;
+    background-color: #1e2b37;
+    overflow-x: hidden;
+  }
+
+  .portflio-item-image {
+    object-fit: cover;
+    width: 100%;
+    height: 40%;
+  }
+
+  .portfolio-item-text {
+    padding: 50px 30px 50px 30px;
+  }
+
+  .portfolio-section .row {
+    padding-bottom: 1%;
+    padding-left: 0%;
+    padding-right: 0%;
+  }
+
+  .email-button {
+    background-color: #b38945;
+    color: white;
+    z-index: 999;
+    position: fixed;
+    right: 30px;
+    bottom: 30px;
+    width: 60px;
+    height: 60px;
+    border: 0px;
+    outline: 0px;
+    cursor: pointer;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    -webkit-box-shadow: 0px 0px 40px -5px rgb(179, 136, 68);
+    -moz-box-shadow: 0px 0px 40px -5px rgb(179, 136, 68);
+    box-shadow: 0px 0px 40px -5px rgb(179, 136, 68);
+  }
+}
+
+@media only screen and (min-width: 769px) {
+  /* DESKTOP STYLING */
+
+  .splash-section {
+    margin: 10%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    background-color: #1e2b37;
+    overflow-x: hidden;
+  }
+
+  .portfolio-section .row {
+    padding-bottom: 1%;
+    padding-left: 1%;
+    padding-right: 1%;
+  }
+
+  .portflio-item-image {
+    width: 100%;
+  }
+
+  .portfolio-item-text {
+    padding: 30px 30px 0px 30px;
+  }
+
+  .email-button {
+    background-color: #b38945;
+    color: white;
+    z-index: 999;
+    position: fixed;
+    right: 50px;
+    bottom: 50px;
+    width: 60px;
+    height: 60px;
+    border: 0px;
+    outline: 0px;
+    cursor: pointer;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    -webkit-box-shadow: 0px 0px 40px -5px rgb(179, 136, 68);
+    -moz-box-shadow: 0px 0px 40px -5px rgb(179, 136, 68);
+    box-shadow: 0px 0px 40px -5px rgb(179, 136, 68);
+    transition: all .1s ease-in-out;
+  }
+
+  .email-button:hover {
+    background-color: #b38945;
+    right: 48px;
+    bottom: 48px;
+    width: 64px;
+    height: 64px;
+    font-size: 18px;
+    border: 0px;
+    outline: 0px;
+    -webkit-box-shadow: 0px 0px 50px -5px rgb(179, 136, 68);
+    -moz-box-shadow: 0px 0px 50px -5px rgb(179, 136, 68);
+    box-shadow: 0px 0px 50px -5px rgb(179, 136, 68);
+  }
+
+}
+
+/* ========================================
+FOOTER SECTION
+======================================== */
+
+.footer {
+  padding-top: 5%;
+  padding-bottom: 5%;
+  overflow-x: hidden;
+}
