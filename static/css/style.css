@@ -55,6 +55,11 @@ a {
   color: #C39F64;
 }
 
+a:hover, a:visited, a:active {
+  color: #715323;
+  text-decoration: none !important;
+}
+
 /* ========================================
 SPLASH SECTION
 ======================================== */
